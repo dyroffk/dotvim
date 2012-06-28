@@ -20,3 +20,6 @@ set expandtab
 
 " Turn on line numbering
 set number
+
+" Set <F5> to toggle Gundo
+nnoremap <F5> :GundoToggle<CR>
