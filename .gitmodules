@@ -10,3 +10,6 @@
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = http://github.com/sjl/gundo.vim.git
+[submodule "bundle/python_folding"]
+	path = bundle/python_folding
+	url = https://github.com/vim-scripts/Efficient-python-folding.git
