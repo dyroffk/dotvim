@@ -20,6 +20,8 @@ set expandtab
 
 " Turn on line numbering
 set number
+" Set <F2> to toggle line numbers
+nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 
 " Set <F5> to toggle Gundo
 nnoremap <F5> :GundoToggle<CR>
