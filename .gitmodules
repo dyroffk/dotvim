@@ -13,3 +13,6 @@
 [submodule "bundle/python_folding"]
 	path = bundle/python_folding
 	url = https://github.com/vim-scripts/Efficient-python-folding.git
+[submodule "bundle/csv.vim"]
+	path = bundle/csv.vim
+	url = https://github.com/chrisbra/csv.vim.git
