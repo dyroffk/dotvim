@@ -18,6 +18,9 @@ set smarttab
 " Always use spaces instead of tab characters
 set expandtab
 
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
+
 " Turn on line numbering
 set number
 " Set <F2> to toggle line numbers
